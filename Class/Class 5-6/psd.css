@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full_wrapper{
+    width: 100%;
+}
+.main_wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    background-color: #f6f9f9;
+    padding: 31px;
+}
+.banner{
+    background-image: url(Images/banner.jpg);
+    background-size: cover;
+}
+.text{
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+    font-size: 83px;
+    padding-top: 223px;
+    padding-bottom: 36px;
+}
+hr{
+    width: 600px;
+    border:2px solid #15a4fa;
+    margin: 0 auto;
+}
+p{
+    color: #efeeef;
+    padding-top: 36px;
+    padding-bottom: 67px;
+}
+a{
+    border: 1px solid #15a4fa;
+    color: #f6f9f9;
+    padding: 21px;
+}
+.h{
+    padding-top: 177px;
+    padding-bottom: 91px;
+}
+h2{
+    padding-top: 81px;
+    color: #2d3950;
+    text-align: center;
+}
+.p2{
+    color: #a5a6a6;
+    text-align: center;
+    padding-top: 30px;
+}
+.child{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.mobile,.fly,.mike{
+    width:40px;
+    height: 40px;
+    border: 1px;
+    background-color: #48baff;
+    padding: 25px;
+}
+h3{
+    color: #2d3950;
+    padding-top: 38px;
+    font-size: 18px;
+}
+.p3{
+    color: #a5a6a6;
+    padding-top: 22px;
+    font-size: 14px;
+}
+.p4{
+    color: #a5a6a6;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer{
+    background-image:url(Images/banner2.jpg);
+    background-size: cover;
+    margin-top: 100px;
+    
+}
+.last_wrapper{
+    width:100%;
+    background-color: #323c4f;
+    opacity: 0.9;
+}
+.p5{
+    color: #60656e;
+    padding-top: 36px;
+    padding-bottom: 67px;
+    text-align: center;
+    background-color: #323c4f;
+}
+.h5{
+    color: #fff;
+    background-color: #323c4f;
+}
+form{
+    text-align: center;
+}
+.check{
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 410px;
+    width: 500px;
+    border: 1px solid white;
+    background: transparent;
+    padding: 20px;
+}
+button{
+    padding:18px;
+    color:white;
+    border: 1px solid #15a4fa;
+    background: transparent;
+    height: 16px;
+    width: 140px;
+    padding-bottom: 33px;
+    margin:0 10px;
+    float: right;
+    margin-right: 397px;
+}
+.checkbox{
+    margin-bottom: 120px;
+    color: white;
+    margin-left:180px;
+    margin-top: 15px;
+    
+}
+.checkbox_text{
+    color: white;
+}
+h6{
+    color: #999999;
+    margin-top: 20px;
+}
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+    margin-right: 60px;
+}
+.fb{
+    position: relative;
+    padding: 12px 14px;
+    border:2px;
+    background-color: #48baff;
+}
+.twi{
+    position: relative;
+    padding: 13.4px 12px;
+    border:2px;
+    background-color: #48baff;
+}
+.goo{
+    position: relative;
+    padding: 12px 12px;
+    border:2px;
+    background-color: #48baff;
+}
+.link{
+    position: relative;
+    padding: 13px 12px;
+    border:2px;
+    background-color: #48baff;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    width:300px;
+    height:200px;
+}
+.image1st{
+    display:block;
+    width:300px;
+    height:200px;
+}
+.overlay{
+    position: absolute;
+    transition: all .7s ease;
+    opacity: 0;
+    background-color: #eee;
+}
+.container:hover .overlay{
+    opacity: 0.9;
+}
+
+.context{
+    color:white;
+    font-family: sans-serif;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.overlay_left{
+    height: 100%;
+    width: 0;
+    top:0;
+    left:0;
+    background-color: #15a4fa;
+}
+.overlay_right{
+    height: 100%;
+    width: 0;
+    top:0;
+    right:0;
+    background-color: #15a4fa;
+}
+.overlay_top{
+    width: 100%;
+    height: 0;
+    top:0;
+    right:0;
+    background-color: #15a4fa;
+}
+.overlay_bottom{
+    width: 100%;
+    height: 0;
+    bottom:0;
+    right:0;
+    background-color: #15a4fa;
+}
+.overlay_cross{
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #15a4fa;
+}
+.overlay_fade{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #15a4fa;
+}
+.container:hover .overlay_left,.container:hover .overlay_right{
+    width:100%;
+    
+}
+.container:hover .overlay_top,.container:hover .overlay_bottom{
+    height:100%;
+}
+.container:hover .overlay_cross{
+    width:100%;
+    height:100%;
+}
+.zoom{
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
